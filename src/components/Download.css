@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Graviola';
+    src: local('Graviola'), url(../public/fonts/graviola-soft.otf)
+}
+
+.container-Download{
+    background-image: url(../public/IMG/Fundo_Download.png);
+    background-color: #e48101;
+    color: white;
+
+}
+
+.Download-title{
+    letter-spacing: 0.00938em;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: Graviola, sans-serif;
+}
+
+.Download-text{
+    font-weight: bold;
+}
+
+.Download-QRCode{
+    width: 222.66px;
+}
+
+.Download-Arrow{
+    width: 150px; position: absolute;
+    margin-left: 7px;
+}
+
+.Download-PlayStore, .Download-GooglePlay{
+    width: 198.33px;
+}
+
+.Download-textScan{
+    font-size: 28px;
+    font-family: Graviola, sans-serif;
+    display: block;
+}

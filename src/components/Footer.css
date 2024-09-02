@@ -1,0 +1,29 @@
+.footer{
+    background: #ffb81c;
+    color: white;
+    font-family: Graviola, sans-serif;
+}
+
+.list-footer{
+    list-style-type: none;
+}
+.list-footer > li{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+}
+
+.title-footer{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}   
+
+.text-footer{
+    font-size: 0.8rem;
+}
+
+.copyright-footer{
+    font-size: 10px;
+    padding-left: 6rem;
+}

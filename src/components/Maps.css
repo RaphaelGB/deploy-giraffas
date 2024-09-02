@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Nunito';
+    src: local('Nunito'), url(../public/fonts/Nunito-VariableFont_wght.ttf);
+}
+
+
+.SubTitle-Maps, .Title-Maps{
+    color: #ed8b26;
+    display: inline;
+}
+
+.SubTitle-Maps{
+    font-size: 13px;
+}
+
+.Title-Maps{
+    font-size: 34px;
+
+}
+
+.input-Maps{
+    background: #f2f2f2;
+    padding: 5px 5px 5px 9px;
+    border: 1px solid rgb(206, 206, 206);
+    width: 100%;
+    height: auto;
+}
+
+.text-Maps{
+    margin: 5px;
+   color: #979eac;
+   font-size: 16px
+}
+
+.button-Maps{
+    background: #ed8b26;
+    color: white;
+    width: 100%;
+    padding: 11px;
+    font-weight: bolder;
+    font-family: Nunito, monospace;
+}

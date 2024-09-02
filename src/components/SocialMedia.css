@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Graviola';
+    src: local('Graviola'), url(../public/fonts/graviola-soft.otf)
+}
+
+@font-face {
+    font-family: 'Source-Sans';
+    src: local('Source-Sans'), url(../public/fonts/SourceSans3-VariableFont_wght.ttf)
+}
+
+.title-SocialMedia{
+        font-size: 38px;
+        text-transform: uppercase;
+        color: #ffb831;
+        text-align: center;
+        font-family: Graviola, monospace; 
+}
+
+.text-SocialMedia{
+    color: #ed8b26;
+    font-family: Graviola, monospace; 
+    font-weight: bold;
+}
+
+.img-SocialMedia{
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.widget{
+    background-color: #f7fafc;
+    ;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.widget > p{
+    font-family: Source-Sans, serif;
+    font-size: 18px
+    }
+.widget > p > a{
+    text-decoration: none;
+}
+
+.img-Media{
+    width: 80px;
+}
